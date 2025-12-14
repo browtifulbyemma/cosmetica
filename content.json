@@ -1,0 +1,202 @@
+{
+  "site": {
+    "title": "Browtiful by Emma",
+    "description": "Medic internist specializat în cosmetică și sprâncene în Timișoara",
+    "phone": "0730854190",
+    "whatsapp": "40730854190",
+    "location": "Timișoara, România",
+    "instagram": "https://instagram.com/browtifulbyemma",
+    "facebook": "https://facebook.com/browtifulbyemma"
+  },
+  
+  "hero": {
+    "badge1": "📍 Timișoara",
+    "badge2": "🩺 Medic internist", 
+    "badge3": "✨ Certificări cosmetică",
+    "title": "Sprâncene impecabile <br>& privire de invidiat",
+    "subtitle": "<strong>Medic internist</strong> cu pasiune pentru cosmetică. Combin cunoștințele medicale cu tehnici moderne de beauty pentru rezultate sigure și naturale."
+  },
+
+  "services": [
+    {
+      "id": "pensat",
+      "title": "Pensat sprâncene",
+      "description": "Forma perfectă pentru trăsăturile tale. Pensat cu pensete profesionale pentru un contur curat și definit, adaptat formei feței tale.",
+      "duration": "~15-20 min",
+      "price": "Preț: la consultare",
+      "whatsappText": "Bună! Aș dori informații despre pensatul sprâncenelor.",
+      "images": [
+        "assets/gallery/pensat-1.jpg",
+        "assets/gallery/pensat-2.jpg",
+        "assets/gallery/pensat-3.jpg",
+        "assets/gallery/pensat-4.jpg",
+        "assets/gallery/pensat-5.jpg",
+        "assets/gallery/pensat-6.jpg",
+        "assets/gallery/pensat-7.jpg",
+        "assets/gallery/pensat-8.jpg"
+      ]
+    },
+    {
+      "id": "stilizare",
+      "title": "Masterclass Stilizare Sprâncene",
+      "description": "Sprâncene pline și expresive. Combinația perfectă între formă și culoare pentru un look natural și armonios cu nuanța părului tău.",
+      "duration": "~30-40 min",
+      "price": "Preț: la consultare",
+      "whatsappText": "Bună! Aș dori informații despre Masterclass Stilizare Sprâncene.",
+      "images": [
+        "assets/gallery/stilizare-1.jpg",
+        "assets/gallery/stilizare-2.jpg",
+        "assets/gallery/stilizare-3.jpg",
+        "assets/gallery/stilizare-4.jpg",
+        "assets/gallery/stilizare-5.jpg",
+        "assets/gallery/stilizare-6.jpg",
+        "assets/gallery/stilizare-7.jpg",
+        "assets/gallery/stilizare-8.jpg"
+      ]
+    },
+    {
+      "id": "laminare-sprancene",
+      "title": "Laminare sprâncene",
+      "description": "Sprâncene disciplinate și voluminoase. Tratament care fixează și hrănește firele, oferindu-le un aspect plin și îngrijit pentru săptămâni.",
+      "duration": "~45-60 min",
+      "price": "Preț: la consultare",
+      "whatsappText": "Bună! Aș dori informații despre laminarea sprâncenelor.",
+      "images": [
+        "assets/gallery/laminare-sprancene-1.jpg",
+        "assets/gallery/laminare-sprancene-2.jpg",
+        "assets/gallery/laminare-sprancene-3.jpg",
+        "assets/gallery/laminare-sprancene-4.jpg",
+        "assets/gallery/laminare-sprancene-5.jpg",
+        "assets/gallery/laminare-sprancene-6.jpg",
+        "assets/gallery/laminare-sprancene-7.jpg",
+        "assets/gallery/laminare-sprancene-8.jpg"
+      ]
+    },
+    {
+      "id": "laminare-gene",
+      "title": "Laminare gene + vopsire",
+      "description": "Privire deschisă și genele tale naturale, evidențiate la maxim. Lifting, vopsire și hrănire pentru un efect de rimel permanent timp de săptămâni.",
+      "duration": "~60-75 min",
+      "price": "Preț: la consultare",
+      "whatsappText": "Bună! Aș dori informații despre laminare gene + vopsire.",
+      "images": [
+        "assets/gallery/laminare-gene-1.jpg",
+        "assets/gallery/laminare-gene-2.jpg",
+        "assets/gallery/laminare-gene-3.jpg",
+        "assets/gallery/laminare-gene-4.jpg",
+        "assets/gallery/laminare-gene-5.jpg",
+        "assets/gallery/laminare-gene-6.jpg",
+        "assets/gallery/laminare-gene-7.jpg",
+        "assets/gallery/laminare-gene-8.jpg"
+      ]
+    },
+    {
+      "id": "epilare",
+      "title": "Epilare pe zone",
+      "description": "Piele netedă și catifelată. Epilare cu ceară profesională pentru față, mustață, bărbie sau alte zone - delicată și eficientă.",
+      "duration": "~10-30 min",
+      "price": "Preț: la consultare",
+      "whatsappText": "Bună! Aș dori informații despre epilare pe zone.",
+      "images": [
+        "assets/gallery/epilare-1.jpg",
+        "assets/gallery/epilare-2.jpg",
+        "assets/gallery/epilare-3.jpg",
+        "assets/gallery/epilare-4.jpg",
+        "assets/gallery/epilare-5.jpg",
+        "assets/gallery/epilare-6.jpg",
+        "assets/gallery/epilare-7.jpg",
+        "assets/gallery/epilare-8.jpg"
+      ]
+    }
+  ],
+
+  "about": {
+    "title": "Bună, sunt Emma",
+    "highlight": "<strong>Medic internist</strong> cu pasiune pentru cosmetică și sănătatea pielii. Această combinație unică îmi permite să înțeleg pielea nu doar din perspectivă estetică, ci și medicală — știu ce se întâmplă cu pielea ta și cum să tratez fiecare tip de ten în siguranță.",
+    "text1": "Pe lângă cariera medicală, am urmat cursuri intensive de specializare în cosmetică profesională, laminare și stilizare sprâncene, precum și laminare gene. Lucrez cu produse premium precum <strong>MY LAMINATION, TUYA și NOEMI</strong> — branduri inovatoare care restructurează și hidratează.",
+    "text2": "Cred în abordarea personalizată — fiecare ten și fiecare față este unică. Formarea mea medicală mă ajută să fac <strong>diagnosticarea corectă a tenului</strong> și să stabilesc scheme de tratament bazate pe știință, nu pe intuiție.",
+    "image": "assets/despre-emma.jpg",
+    "philosophy": [
+      { "title": "Siguranță medicală", "text": "Cunoștințe de anatomie, fiziologie și dermatologie" },
+      { "title": "Personalizare", "text": "Diagnosticare profesională și tratamente adaptate" },
+      { "title": "Naturalețe", "text": "Rezultate vizibile care respectă structura naturală" },
+      { "title": "Inovație", "text": "Tehnici moderne și produse premium certificate" }
+    ]
+  },
+
+  "certifications": [
+    { "icon": "🩺", "title": "Medic Internist", "text": "Formație medicală completă" },
+    { "icon": "💄", "title": "Curs Cosmetică", "text": "Epilare, tratamente faciale, machiaj" },
+    { "icon": "✨", "title": "Masterclass Laminare", "text": "Gene + Sprâncene cu MY LAMINATION" },
+    { "icon": "🎨", "title": "Masterclass Stilizare Sprâncene", "text": "Corectare, vopsire, henna" }
+  ],
+
+  "advantages": [
+    { "icon": "🩺", "title": "Background medical", "text": "Medic internist cu cunoștințe de anatomie, fiziologie și dermatologie. Înțeleg pielea la nivel profund." },
+    { "icon": "🔬", "title": "Diagnosticare profesională", "text": "Analizez tipul de ten și stabilesc schema de tratament bazată pe cunoștințe medicale, nu pe intuiție." },
+    { "icon": "💎", "title": "Produse premium", "text": "Lucrez cu MY LAMINATION, TUYA, NOEMI — produse inovatoare care restructurează și hidratează." },
+    { "icon": "🛡️", "title": "Igienă medicală", "text": "Standarde de igienă la nivel medical. Dezinfectare completă, instrumente sterilizate, materiale de unică folosință." },
+    { "icon": "📚", "title": "Formare continuă", "text": "Masterclass-uri și cursuri de specializare cu cele mai noi tehnici: laminare, Lash Botox, aparatură avansată." },
+    { "icon": "⚕️", "title": "Siguranță garantată", "text": "Cunosc contraindicațiile fiecărei proceduri. Sănătatea ta este pe primul loc, apoi estetica." }
+  ],
+
+  "testimonials": [
+    {
+      "rating": 5,
+      "text": "Am încercat multe saloane înainte să o găsesc pe Emma. În sfârșit am găsit pe cineva care înțelege ce înseamnă îngrijire personalizată. Sprâncenele mele nu au arătat niciodată mai bine!",
+      "name": "Andreea M.",
+      "role": "Clientă de 2 ani",
+      "avatar": "A"
+    },
+    {
+      "rating": 5,
+      "text": "Laminarea sprâncenelor a fost exact ce aveam nevoie. Emma a găsit forma perfectă pentru fața mea și mi-a dat sfaturi pentru întreținere. Recomand cu încredere!",
+      "name": "Maria D.",
+      "role": "Designer",
+      "avatar": "M"
+    },
+    {
+      "rating": 5,
+      "text": "Atmosfera este foarte relaxantă, iar Emma te face să te simți confortabil. Laminarea genelor a fost o experiență plăcută, iar rezultatul - spectaculos!",
+      "name": "Ioana P.",
+      "role": "Profesoară",
+      "avatar": "I"
+    },
+    {
+      "rating": 5,
+      "text": "Stilizarea și vopsirea sprâncenelor mi-au schimbat complet look-ul. Emma mi-a explicat fiecare pas și a ales nuanța perfectă pentru mine.",
+      "name": "Diana R.",
+      "role": "Studentă",
+      "avatar": "D"
+    },
+    {
+      "rating": 5,
+      "text": "Igiena este impecabilă, totul este sterilizat și curat. Pentru mine asta contează foarte mult. Plus că rezultatele sunt vizibile imediat.",
+      "name": "Cristina B.",
+      "role": "Medic",
+      "avatar": "C"
+    },
+    {
+      "rating": 5,
+      "text": "De când am descoperit-o pe Emma, nu mai merg în altă parte. Pensatul este perfect și ține mult mai bine decât oriunde am fost.",
+      "name": "Laura S.",
+      "role": "Antreprenoare",
+      "avatar": "L"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Cât durează un tratament?",
+      "answer": "Depinde de serviciu. Pensatul durează 15-20 min, laminarea sprâncenelor 45-60 min, iar laminarea genelor 60-75 min."
+    },
+    {
+      "question": "Cât timp rezistă laminarea?",
+      "answer": "Laminarea sprâncenelor și genelor rezistă 4-6 săptămâni, în funcție de tipul firului și îngrijirea de acasă."
+    },
+    {
+      "question": "Cum aleg tratamentul potrivit?",
+      "answer": "Nu trebuie să știi exact ce vrei. La prima vizită discutăm despre nevoile tale și îți recomand tratamentul potrivit."
+    }
+  ]
+}

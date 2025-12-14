@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Dynamic Title - Set by JavaScript -->
+    <title>Articol | Blog Browtiful by Emma</title>
+    <meta name="description" content="Articol din blogul Browtiful by Emma - sfaturi beauty, îngrijire și tutoriale">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://browtifulbyemma.ro/article.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Browtiful by Emma">
+    <meta property="og:locale" content="ro_RO">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog-styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Schema.org Article -->
+    <script type="application/ld+json" id="article-schema">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "author": {
+            "@type": "Person",
+            "name": "Emma"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Browtiful by Emma",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "assets/favicon.svg"
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header--scrolled" id="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo">
+                <span class="logo-text">Browtiful</span>
+                <span class="logo-accent">by Emma</span>
+            </a>
+            
+            <nav class="header__nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html#servicii" class="nav__link">Servicii</a></li>
+                    <li><a href="index.html#despre" class="nav__link">Despre</a></li>
+                    <li><a href="blog.html" class="nav__link active">Blog</a></li>
+                    <li><a href="index.html#testimoniale" class="nav__link">Testimoniale</a></li>
+                    <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <a href="index.html#programari" class="btn btn--small header__cta">Programează-te</a>
+            
+            <button class="header__menu-toggle" id="menuToggle" aria-label="Deschide meniul">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="article-page">
+        <!-- Article Header -->
+        <section class="article-header">
+            <div class="container">
+                <nav class="article-header__breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Acasă</a>
+                    <span>›</span>
+                    <a href="blog.html">Blog</a>
+                    <span>›</span>
+                    <span id="breadcrumb-category">Articol</span>
+                </nav>
+                
+                <span class="article-header__category" id="article-category">Îngrijire</span>
+                <h1 class="article-header__title" id="article-title">Se încarcă...</h1>
+                
+                <div class="article-header__meta">
+                    <div class="article-header__author">
+                        <div class="article-header__avatar">E</div>
+                        <div>
+                            <strong id="article-author">Emma</strong>
+                            <span> • Browtiful by Emma</span>
+                        </div>
+                    </div>
+                    <span id="article-date">📅 Se încarcă...</span>
+                    <span id="article-read-time">⏱️ Se încarcă...</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Article Content -->
+        <section class="article-content">
+            <div class="container">
+                <div class="article-content__wrapper" id="article-body">
+                    <!-- Content loaded dynamically -->
+                    <div class="loading-skeleton" style="height: 200px; border-radius: 8px;"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="blog-newsletter">
+            <div class="container">
+                <div class="article-cta">
+                    <h3>📍 Vino la Browtiful by Emma</h3>
+                    <p>Transformă-ți privirea cu servicii profesionale de îngrijire a sprâncenelor și genelor în Timișoara.</p>
+                    <a href="tel:0730854190" class="btn btn--primary">Sună acum: 0730 854 190</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Related Articles -->
+        <section class="related-articles">
+            <div class="container">
+                <h2 class="related-articles__title">Articole similare</h2>
+                <div class="related-grid" id="related-grid">
+                    <!-- Related articles loaded dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__brand">
+                <a href="index.html" class="footer__logo">
+                    <span class="logo-text">Browtiful</span>
+                    <span class="logo-accent">by Emma</span>
+                </a>
+                <p class="footer__tagline">Medic internist • Cosmetică premium în Timișoara</p>
+            </div>
+            
+            <nav class="footer__nav">
+                <h4 class="footer__nav-title">Navigare</h4>
+                <ul class="footer__links">
+                    <li><a href="index.html#servicii">Servicii</a></li>
+                    <li><a href="index.html#despre">Despre</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="footer__legal">
+                <h4 class="footer__nav-title">Categorii Blog</h4>
+                <ul class="footer__links">
+                    <li><a href="blog.html?cat=ingrijire">Îngrijire</a></li>
+                    <li><a href="blog.html?cat=tutorial">Tutoriale</a></li>
+                    <li><a href="blog.html?cat=review">Review Produse</a></li>
+                    <li><a href="blog.html?cat=trends">Tendințe</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer__cta">
+                <h4 class="footer__nav-title">Programare</h4>
+                <a href="https://wa.me/40730854190" class="btn btn--primary btn--small" target="_blank" rel="noopener">
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2025 Browtiful by Emma. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="article.js"></script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ro" itemscope itemtype="https://schema.org/Blog">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>Blog Beauty | Laminare Sprâncene & Gene | Browtiful by Emma Timișoara</title>
+    <meta name="description" content="📚 Articole despre laminare sprâncene, laminare gene, îngrijire beauty, review produse cosmetice și tendințe 2025. Sfaturi de la Emma - medic specialist cosmetică Timișoara.">
+    <meta name="keywords" content="blog beauty timisoara, laminare sprancene articole, ingrijire sprancene gene, review produse cosmetice, tendinte beauty 2025, tips frumusete, ghid laminare">
+    <meta name="author" content="Browtiful by Emma">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Blog Beauty | Browtiful by Emma">
+    <meta property="og:description" content="Articole și sfaturi despre laminare sprâncene, îngrijire gene, review produse și tendințe beauty de la Emma - medic specialist în cosmetică.">
+    <meta property="og:image" content="assets/og-blog.jpg">
+    <meta property="og:locale" content="ro_RO">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog Beauty | Browtiful by Emma">
+    <meta name="twitter:description" content="Sfaturi și articole despre laminare, îngrijire și tendințe beauty.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <meta name="theme-color" content="#D7A6A6">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog-styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header--scrolled" id="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo">
+                <span class="logo-text">Browtiful</span>
+                <span class="logo-accent">by Emma</span>
+            </a>
+            
+            <nav class="header__nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html#servicii" class="nav__link">Servicii</a></li>
+                    <li><a href="index.html#despre" class="nav__link">Despre</a></li>
+                    <li><a href="blog.html" class="nav__link active">Blog</a></li>
+                    <li><a href="index.html#testimoniale" class="nav__link">Testimoniale</a></li>
+                    <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <a href="index.html#programari" class="btn btn--small header__cta">Programează-te</a>
+            
+            <button class="header__menu-toggle" id="menuToggle" aria-label="Deschide meniul">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="blog-page">
+        <!-- Blog Hero -->
+        <section class="blog-hero">
+            <div class="container">
+                <div class="blog-hero__content">
+                    <span class="section__label">Blog & Articole</span>
+                    <h1 class="blog-hero__title">Beauty Tips & Inspirație</h1>
+                    <p class="blog-hero__subtitle">
+                        Articole despre laminare sprâncene și gene, îngrijire, review-uri produse și ultimele tendințe în beauty. 
+                        Sfaturi de la Emma - medic internist specialist în cosmetică.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="blog-categories">
+            <div class="container">
+                <div class="categories-wrapper">
+                    <button class="category-btn active" data-category="all">
+                        <span class="category-icon">📰</span>
+                        <span>Toate</span>
+                    </button>
+                    <button class="category-btn" data-category="ingrijire">
+                        <span class="category-icon">💆</span>
+                        <span>Îngrijire</span>
+                    </button>
+                    <button class="category-btn" data-category="medicina">
+                        <span class="category-icon">🩺</span>
+                        <span>Medicină</span>
+                    </button>
+                    <button class="category-btn" data-category="tutorial">
+                        <span class="category-icon">📚</span>
+                        <span>Tutoriale</span>
+                    </button>
+                    <button class="category-btn" data-category="review">
+                        <span class="category-icon">⭐</span>
+                        <span>Review Produse</span>
+                    </button>
+                    <button class="category-btn" data-category="trends">
+                        <span class="category-icon">✨</span>
+                        <span>Tendințe</span>
+                    </button>
+                    <button class="category-btn" data-category="tips">
+                        <span class="category-icon">💡</span>
+                        <span>Tips & Tricks</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Articles -->
+        <section class="blog-featured">
+            <div class="container">
+                <h2 class="blog-section-title">📌 Articole Recomandate</h2>
+                <div class="featured-grid" id="featuredArticles">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- All Articles -->
+        <section class="blog-articles">
+            <div class="container">
+                <h2 class="blog-section-title">📝 Toate Articolele</h2>
+                <div class="articles-grid" id="articlesGrid">
+                    <!-- Populated by JS -->
+                </div>
+                
+                <div class="blog-empty" id="blogEmpty" style="display: none;">
+                    <span class="blog-empty__icon">📭</span>
+                    <p>Nu există articole în această categorie.</p>
+                    <button class="btn btn--secondary" onclick="filterByCategory('all')">Vezi toate articolele</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter CTA -->
+        <section class="blog-newsletter">
+            <div class="container">
+                <div class="newsletter-card">
+                    <div class="newsletter-content">
+                        <span class="newsletter-icon">💌</span>
+                        <h3>Vrei mai multe sfaturi beauty?</h3>
+                        <p>Urmărește-mă pe Instagram pentru tips zilnice și behind the scenes!</p>
+                        <a href="https://instagram.com/browtifulbyemma" target="_blank" rel="noopener" class="btn btn--primary">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" style="margin-right: 8px;">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                            @browtifulbyemma
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__brand">
+                <a href="index.html" class="footer__logo">
+                    <span class="logo-text">Browtiful</span>
+                    <span class="logo-accent">by Emma</span>
+                </a>
+                <p class="footer__tagline">Medic internist • Cosmetică premium în Timișoara</p>
+            </div>
+            
+            <nav class="footer__nav">
+                <h4 class="footer__nav-title">Navigare</h4>
+                <ul class="footer__links">
+                    <li><a href="index.html#servicii">Servicii</a></li>
+                    <li><a href="index.html#despre">Despre</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="footer__legal">
+                <h4 class="footer__nav-title">Categorii Blog</h4>
+                <ul class="footer__links">
+                    <li><a href="blog.html?cat=ingrijire">Îngrijire</a></li>
+                    <li><a href="blog.html?cat=tutorial">Tutoriale</a></li>
+                    <li><a href="blog.html?cat=review">Review Produse</a></li>
+                    <li><a href="blog.html?cat=trends">Tendințe</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer__cta">
+                <h4 class="footer__nav-title">Programare</h4>
+                <a href="https://wa.me/40730854190" class="btn btn--primary btn--small" target="_blank" rel="noopener">
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2025 Browtiful by Emma. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Schema.org Blog -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Blog Browtiful by Emma",
+        "description": "Articole despre laminare sprâncene, laminare gene, îngrijire beauty, review produse și tendințe cosmetice.",
+        "url": "",
+        "author": {
+            "@type": "Person",
+            "name": "Emma",
+            "jobTitle": "Medic Internist & Specialist Cosmetică"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Browtiful by Emma",
+            "logo": "assets/favicon.svg"
+        }
+    }
+    </script>
+
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#F8F5F1" stroke="#D7A6A6" stroke-width="2"/>
+  
+  <!-- Stylized "B" for Browtiful -->
+  <path d="M22 16 L22 48 M22 16 C22 16 38 14 38 24 C38 30 28 32 28 32 M22 32 C22 32 42 30 42 40 C42 50 22 48 22 48" 
+        fill="none" 
+        stroke="#2A1E1B" 
+        stroke-width="4" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Decorative eyebrow shape -->
+  <path d="M18 20 Q32 12 46 20" 
+        fill="none" 
+        stroke="#C7A36A" 
+        stroke-width="3" 
+        stroke-linecap="round"/>
+  
+  <!-- Small sparkle -->
+  <circle cx="48" cy="16" r="2" fill="#C7A36A"/>
+</svg>

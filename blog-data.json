@@ -1,0 +1,483 @@
+{
+  "categories": [
+    { "id": "ingrijire", "name": "Îngrijire", "icon": "💆", "color": "#D7A6A6" },
+    { "id": "tutorial", "name": "Tutoriale", "icon": "📚", "color": "#C7A36A" },
+    { "id": "review", "name": "Review Produse", "icon": "⭐", "color": "#E7D3C7" },
+    { "id": "trends", "name": "Tendințe", "icon": "✨", "color": "#B8944F" },
+    { "id": "tips", "name": "Tips & Tricks", "icon": "💡", "color": "#8A7A75" },
+    { "id": "medicina", "name": "Medicină & Sănătate", "icon": "🩺", "color": "#A8C5D6" }
+  ],
+  
+  "articles": [
+    {
+      "id": "laminare-sprancene-ghid-complet",
+      "slug": "laminare-sprancene-ghid-complet-2025",
+      "title": "Laminare Sprâncene: Ghid Complet 2025 - Tot Ce Trebuie Să Știi",
+      "excerpt": "Află totul despre laminarea sprâncenelor: cum funcționează, cât durează, îngrijire post-tratament și de ce este tratamentul #1 pentru sprâncene naturale și voluminoase.",
+      "category": "ingrijire",
+      "author": "Emma",
+      "date": "2025-01-10",
+      "readTime": "8 min",
+      "featured": true,
+      "image": "assets/gallery/laminare-sprancene-ghid.png",
+      "tags": ["laminare", "sprâncene", "brow lift", "tratament"],
+      "content": {
+        "intro": "Laminarea sprâncenelor a devenit unul dintre cele mai populare tratamente pentru a obține sprâncene pline, disciplinate și natural aranjate. Ca medic internist cu specializare în cosmetică, îți explic tot ce trebuie să știi înainte de a face acest tratament.",
+        "sections": [
+          {
+            "title": "Ce este laminarea sprâncenelor?",
+            "content": "Laminarea sprâncenelor (sau brow lamination) este un tratament semi-permanent care restructurează firele de păr, fixându-le într-o direcție uniformă. Rezultatul? Sprâncene mai pline, mai definite și cu un aspect natural \"brushed-up\".\n\nTratamentul folosește soluții speciale care modifică temporar structura firului de păr, permițându-i să fie modelat și fixat în forma dorită."
+          },
+          {
+            "title": "Cum funcționează procedura?",
+            "content": "Procedura durează aproximativ 45-60 de minute și include următorii pași:\n\n1. **Curățare** - Sprâncenele sunt curățate de orice reziduu sau machiaj\n2. **Aplicare lifting** - Se aplică soluția de lifting care înmoaie keratina\n3. **Modelare** - Firele sunt aranjate în direcția dorită\n4. **Fixare** - Se aplică soluția de fixare\n5. **Hidratare** - Tratament final cu keratină și uleiuri nutritive\n6. **Optional: Vopsire** - Pentru un efect și mai dramatic"
+          },
+          {
+            "title": "Cât durează rezultatul?",
+            "content": "Rezultatele laminării durează în medie **4-6 săptămâni**, în funcție de:\n- Tipul firului de păr\n- Ciclul natural de creștere a sprâncenelor\n- Îngrijirea post-tratament\n- Expunerea la apă și aburi în primele 24-48 ore"
+          },
+          {
+            "title": "Îngrijire post-tratament",
+            "content": "Pentru a prelungi durata rezultatului:\n\n✓ Evită apa pe sprâncene primele 24-48 ore\n✓ Nu folosi produse pe bază de ulei în primele zile\n✓ Periază zilnic cu o perie de sprâncene\n✓ Aplică ser nutritiv recomandat\n✓ Evită sauna și piscina în prima săptămână"
+          },
+          {
+            "title": "Este potrivit pentru tine?",
+            "content": "Laminarea este ideală dacă:\n- Ai sprâncene rebele sau care cresc în direcții diferite\n- Dorești un aspect mai plin fără microblading\n- Vrei să reduci timpul de machiaj dimineața\n- Preferi un look natural\n\n**Nu este recomandată** dacă ai:\n- Piele foarte sensibilă sau eczeme active\n- Alergii la produsele cosmetice\n- Răni deschise în zona sprâncenelor"
+          }
+        ],
+        "conclusion": "Laminarea sprâncenelor este o alegere excelentă pentru cine dorește sprâncene perfecte cu minim efort zilnic. La Browtiful by Emma, folosim produse premium MY LAMINATION și îți oferim consultanță personalizată pentru rezultate care să te reprezinte."
+      }
+    },
+    {
+      "id": "laminare-gene-vs-extensii",
+      "slug": "laminare-gene-vs-extensii-gene-comparatie",
+      "title": "Laminare Gene vs. Extensii Gene: Care Este Mai Bună Pentru Tine?",
+      "excerpt": "Comparăm cele două tratamente populare pentru gene: laminare (lash lift) și extensii. Află avantajele, dezavantajele și care ți se potrivește mai bine.",
+      "category": "ingrijire",
+      "author": "Emma",
+      "date": "2025-01-08",
+      "readTime": "6 min",
+      "featured": true,
+      "image": "assets/gallery/laminare-gene-vs-extensii.jpg",
+      "tags": ["laminare gene", "extensii gene", "lash lift", "comparație"],
+      "content": {
+        "intro": "Dacă visezi la gene lungi și voluminoase, probabil te-ai întrebat: laminare sau extensii? Ambele tratamente au avantajele lor, dar diferă semnificativ. Hai să le comparăm!",
+        "sections": [
+          {
+            "title": "Ce este laminarea genelor?",
+            "content": "Laminarea genelor (lash lift) este un tratament care ridică și curbează genele tale naturale, oferindu-le un aspect de \"rimel permanent\". Include și vopsirea pentru un efect complet."
+          },
+          {
+            "title": "Ce sunt extensiile de gene?",
+            "content": "Extensiile presupun aplicarea unor fire sintetice sau naturale pe fiecare geană individuală, pentru a adăuga lungime și volum."
+          },
+          {
+            "title": "Comparație detaliată",
+            "content": "| Criteriu | Laminare | Extensii |\n|----------|----------|----------|\n| **Durată** | 4-6 săptămâni | 2-3 săptămâni |\n| **Timp procedură** | 60-75 min | 90-120 min |\n| **Mentenanță** | Zero | Infill la 2-3 săpt. |\n| **Aspect** | Natural | Dramatic |\n| **Preț** | Moderat | Mai ridicat |\n| **Risc deteriorare** | Minim | Moderat |"
+          },
+          {
+            "title": "Când să alegi laminarea?",
+            "content": "✓ Preferi un look natural\n✓ Ai gene lungi dar drepte\n✓ Vrei mentenanță zero\n✓ Ai un stil de viață activ\n✓ Porți ochelari"
+          },
+          {
+            "title": "Când să alegi extensiile?",
+            "content": "✓ Vrei volum și lungime extra\n✓ Ai un eveniment special\n✓ Genele tale naturale sunt scurte\n✓ Îți dorești un look dramatic"
+          }
+        ],
+        "conclusion": "La Browtiful by Emma recomand laminarea pentru majoritatea clientelor - rezultate frumoase cu gene tale naturale, fără risc de deteriorare. Vino la o consultație să vedem ce ți se potrivește!"
+      }
+    },
+    {
+      "id": "review-my-lamination-produse",
+      "slug": "review-my-lamination-produse-profesionale",
+      "title": "Review MY LAMINATION: De Ce Folosesc Aceste Produse Premium",
+      "excerpt": "Review detaliat al produselor MY LAMINATION pe care le folosesc în salon. Află de ce sunt considerate cele mai bune pe piață și ce le face speciale.",
+      "category": "review",
+      "author": "Emma",
+      "date": "2025-01-05",
+      "readTime": "5 min",
+      "featured": false,
+      "image": "assets/gallery/review-my-lamination.jpg",
+      "tags": ["review", "MY LAMINATION", "produse profesionale", "laminare"],
+      "content": {
+        "intro": "Ca specialist în laminare, am testat multe branduri. Astăzi îți spun de ce am ales MY LAMINATION și de ce consider că face diferența pentru clientele mele.",
+        "sections": [
+          {
+            "title": "Despre brand",
+            "content": "MY LAMINATION este un brand internațional specializat în produse pentru laminare sprâncene și gene. Sunt cunoscuți pentru formulele inovatoare care îmbină eficiența cu îngrijirea părului."
+          },
+          {
+            "title": "Ce îmi place",
+            "content": "⭐ **Formula gentle** - Nu deteriorează firul de păr\n⭐ **Rezultate consistente** - Funcționează pe toate tipurile de păr\n⭐ **Ingrediente nutritive** - Keratină, colagen, uleiuri naturale\n⭐ **Durabilitate** - Rezultate care țin 5-6 săptămâni\n⭐ **Ușurință în utilizare** - Timpi de expunere clari"
+          },
+          {
+            "title": "Produse favorite",
+            "content": "1. **Lift Lotion** - Soluția de lifting cu pH balansat\n2. **Fix Lotion** - Fixare puternică fără a rigidiza\n3. **Lash Botox** - Tratament de regenerare cu keratină\n4. **Brow Bomber** - Ser nutritiv post-tratament"
+          },
+          {
+            "title": "Rezultate pe clienți",
+            "content": "În ultimul an am tratat peste 200 de cliente cu produse MY LAMINATION. Feedback-ul a fost excepțional - rezultate naturale, fără iritații, durabilitate excelentă."
+          }
+        ],
+        "conclusion": "Investiția în produse de calitate se vede în rezultate. MY LAMINATION este alegerea mea pentru că îmi permite să ofer servicii premium cu garanția siguranței."
+      }
+    },
+    {
+      "id": "tendinte-sprancene-2025",
+      "slug": "tendinte-sprancene-2025-ce-se-poarta",
+      "title": "Tendințe Sprâncene 2025: Ce Se Poartă Anul Acesta",
+      "excerpt": "Descoperă cele mai noi tendințe în materie de sprâncene pentru 2025: de la fluffy brows la soap brows și laminated look.",
+      "category": "trends",
+      "author": "Emma",
+      "date": "2025-01-02",
+      "readTime": "4 min",
+      "featured": false,
+      "image": "assets/gallery/tendinte-sprancene-2025.jpg",
+      "tags": ["tendințe", "2025", "sprâncene", "beauty trends"],
+      "content": {
+        "intro": "Anul 2025 aduce câteva schimbări interesante în lumea sprâncenelor. Iată ce trebuie să știi pentru a fi în trend!",
+        "sections": [
+          {
+            "title": "1. Fluffy Brows rămân #1",
+            "content": "Sprâncenele naturale, pline și \"fluffy\" continuă să domine. Aspectul este obținut prin laminare sau folosind produse de styling."
+          },
+          {
+            "title": "2. Goodbye sprâncene supraepilate",
+            "content": "Tendința anilor 2000 cu sprâncene foarte subțiri a rămas în trecut. În 2025 lăsăm sprâncenele să crească natural și le modelăm minimal."
+          },
+          {
+            "title": "3. Nuanțe naturale",
+            "content": "Se poartă nuanțe care se potrivesc perfect cu culoarea părului - fără contraste extreme. Vopsirea subtilă este preferată."
+          },
+          {
+            "title": "4. Brow Lamination la putere",
+            "content": "Laminarea rămâne tratamentul preferat pentru aspect îngrijit cu efort minim. Adaugă volum și direcție fără a fi permanent."
+          },
+          {
+            "title": "5. Skin-first approach",
+            "content": "Tot mai multe femei aleg îngrijirea pielii de sub sprâncene. Seruri și uleiuri pentru stimularea creșterii sunt în trend."
+          }
+        ],
+        "conclusion": "Tendințele 2025 sunt despre naturalețe și autenticitate. La Browtiful by Emma te ajut să găsești forma perfectă care să te reprezinte - nu să urmărești orbește trendurile!"
+      }
+    },
+    {
+      "id": "ingrijire-gene-acasa",
+      "slug": "cum-sa-ingrijesti-genele-acasa-ghid",
+      "title": "Cum Să Îngrijești Genele Acasă: Ghid Complet Pentru Gene Sănătoase",
+      "excerpt": "Sfaturi de la specialist pentru îngrijirea genelor acasă: seruri, rutină, greșeli de evitat și produse recomandate.",
+      "category": "tips",
+      "author": "Emma",
+      "date": "2024-12-28",
+      "readTime": "5 min",
+      "featured": false,
+      "image": "assets/gallery/ingrijire-gene-acasa.jpg",
+      "tags": ["îngrijire", "gene", "tips", "rutină beauty"],
+      "content": {
+        "intro": "Genele sănătoase nu depind doar de tratamente de salon. Îngrijirea zilnică acasă face diferența. Iată rutina mea recomandată!",
+        "sections": [
+          {
+            "title": "Curățare corectă",
+            "content": "- Folosește un demachiant oil-free pentru zona ochilor\n- Nu freca agresiv - tamponeaza delicat\n- Îndepărtează complet rimelul seara\n- Nu dormi niciodată cu machiaj pe ochi"
+          },
+          {
+            "title": "Seruri pentru creștere",
+            "content": "Serurile cu peptide și biotină stimulează creșterea genelor. Aplică seara pe gene curate. Rezultate vizibile în 4-6 săptămâni."
+          },
+          {
+            "title": "Alimentație pentru gene",
+            "content": "- Proteine (părul e făcut din keratină)\n- Biotină (ouă, nuci, avocado)\n- Vitamina E (ulei de măsline, migdale)\n- Fier (spanac, carne roșie)"
+          },
+          {
+            "title": "Greșeli de evitat",
+            "content": "❌ Folosirea rimelului waterproof zilnic\n❌ Curățarea agresivă a zonei ochilor\n❌ Folosirea ondulatorului pe gene uscate\n❌ Extensii de gene foarte frecvente"
+          }
+        ],
+        "conclusion": "Îngrijirea constantă acasă face genele tale să arate mai bine și prelungește efectul tratamentelor din salon. Întrebări? Scrie-mi pe WhatsApp!"
+      }
+    },
+    {
+      "id": "primul-tratament-laminare",
+      "slug": "la-ce-sa-te-astepti-primul-tratament-laminare",
+      "title": "La Ce Să Te Aștepți de la Primul Tratament de Laminare",
+      "excerpt": "Ești nervoasă înainte de prima laminare? Îți explic pas cu pas ce se întâmplă și cum să te pregătești pentru rezultate perfecte.",
+      "category": "tutorial",
+      "author": "Emma",
+      "date": "2024-12-20",
+      "readTime": "6 min",
+      "featured": false,
+      "image": "assets/gallery/primul-tratament-laminare.jpg",
+      "tags": ["primul tratament", "laminare", "pregătire", "ce să aștepți"],
+      "content": {
+        "intro": "Multe cliente îmi spun că erau nervoase înainte de prima laminare. E normal! Hai să-ți explic exact la ce să te aștepți pentru a veni relaxată.",
+        "sections": [
+          {
+            "title": "Înainte de tratament",
+            "content": "- Nu aplica produse pe sprâncene/gene în ziua tratamentului\n- Vino fără machiaj pe ochi\n- Evită cafeaua în exces (să nu tremuri 😄)\n- Ia-ți ceva de ascultat - stai relaxată ~1 oră"
+          },
+          {
+            "title": "În timpul tratamentului",
+            "content": "1. Stai întinsă confortabil\n2. Închizi ochii (pentru laminare gene)\n3. Simți un ușor disconfort la aplicarea soluțiilor\n4. Nu există durere!\n5. Poți vorbi cu mine pe tot parcursul"
+          },
+          {
+            "title": "Imediat după",
+            "content": "- Sprâncenele/genele pot părea \"prea\" ridicate - se așază în 24h\n- Zona poate fi ușor roșie - dispare rapid\n- Nu uda zona 24-48 ore\n- Vei primi instrucțiuni scrise"
+          },
+          {
+            "title": "Primele zile",
+            "content": "- Zi 1-2: Evită apa, sauna, piscina\n- Zi 3-7: Începi rutina de îngrijire\n- După 1 săpt: Look final - PERFECT!"
+          }
+        ],
+        "conclusion": "Prima laminare e o experiență plăcută și relaxantă. Te aștept să descoperim împreună forma perfectă pentru tine!"
+      }
+    }
+    ,
+    {
+      "id": "retinol-siguranta-dermatologie",
+      "slug": "retinol-cum-il-folosesti-corect",
+      "title": "Retinol: Cum îl folosești corect și în siguranță (dermatologie)",
+      "excerpt": "Retinolul ajută la textura pielii și la pigment. Învață dozele, frecvența și combinațiile sigure conform practicii dermatologice.",
+      "category": "ingrijire",
+      "author": "Emma",
+      "date": "2024-12-18",
+      "readTime": "7 min",
+      "featured": false,
+      "image": "assets/gallery/retinol-folosire-corecta.jpg",
+      "tags": ["retinol", "dermatologie", "îngrijire ten"],
+      "content": {
+        "intro": "Retinolul (vitamina A) are dovezi solide pentru îmbunătățirea texturii pielii și uniformizarea pigmentului. Folosirea corectă reduce iritațiile și oferă rezultate vizibile în câteva săptămâni.",
+        "sections": [
+          {"title": "Beneficii documentate", "content": "• Stimulează turnover-ul celular\n• Ajută la hiperpigmentație post-inflamatorie\n• Reduce aspectul liniilor fine\n• Suport în acnee ușoară"},
+          {"title": "Cum începi", "content": "• Frecvență: 2x/săpt. timp de 2-3 săpt., apoi crești treptat\n• Cantitate: mărime bob de mazăre pe față uscată\n• Regula sandwich: cremă – retinol – cremă pentru a limita iritația"},
+          {"title": "Ce să eviți", "content": "• Nu combina în aceeași seară cu AHA/BHA puternice\n• Evită zona ochilor și colțurile nasului la început\n• Ziua folosește SPF 30+; retinolul face pielea fotosensibilă"}
+        ],
+        "conclusion": "Introdu gradual, monitorizează toleranța, și nu uita de protecția solară zilnică. Consultația personalizată ajustează concentrația și frecvența pentru tipul tău de piele."
+      }
+    },
+    {
+      "id": "vitamina-c-hyperpigmentatie",
+      "slug": "vitamina-c-ten-luminos",
+      "title": "Vitamina C pentru ten luminos: când funcționează și cum o alegi",
+      "excerpt": "Serurile cu vitamina C pot reduce petele și oferi strălucire. Alegerea pH-ului, concentrației și ambalajului face diferența.",
+      "category": "ingrijire",
+      "author": "Emma",
+      "date": "2024-12-15",
+      "readTime": "6 min",
+      "featured": false,
+      "image": "assets/gallery/vitamina-c-ten.jpg",
+      "tags": ["vitamina C", "hiperpigmentație", "antioxidanți"],
+      "content": {
+        "intro": "Vitamina C (acid L-ascorbic sau derivați stabili) este un antioxidant cu beneficii dovedite pentru luminozitate și pigment. Alegerea corectă previne oxidarea și iritația.",
+        "sections": [
+          {"title": "Formule și stabilitate", "content": "• Acid L-ascorbic: eficient dar instabil – ambalaj opac, pipetă minim expusă\n• Derivați (SAP, MAP, ascorbyl glucoside): mai stabili, blânzi\n• pH optim 2.5–3.5 pentru ascorbic; derivații funcționează la pH mai mare"},
+          {"title": "Concentrație și toleranță", "content": "• Ten sensibil: 5–10%\n• Ten normal: 10–15%\n• Evită concentrații foarte mari dacă apar înțepături persistente"},
+          {"title": "Cum o introduci în rutină", "content": "• Dimineața: curățare – vitamina C – cremă – SPF\n• Evită combinarea cu niacinamida cu pH diferit în același pas dacă te irită (nu e obligatoriu)\n• Monitorizează culoarea: dacă devine maronie, produsul s-a oxidat"}
+        ],
+        "conclusion": "Alege o formulă stabilă, începe cu concentrație moderată și protejează-te zilnic cu SPF pentru rezultate vizibile în 6–8 săptămâni."
+      }
+    },
+    {
+      "id": "spf-mituri-si-realitate",
+      "slug": "spf-zilnic-este-obligatoriu",
+      "title": "SPF zilnic: mituri și realitate pentru protecția pielii",
+      "excerpt": "Protecția UV reduce fotoîmbătrânirea și riscul de leziuni actinice. Clarificăm SPF, UVA/UVB, cantitatea și reaplicarea corectă.",
+      "category": "ingrijire",
+      "author": "Emma",
+      "date": "2024-12-12",
+      "readTime": "6 min",
+      "featured": true,
+      "image": "assets/gallery/spf-zilnic.jpg",
+      "tags": ["SPF", "UVA", "UVB", "fotoprotecție"],
+      "content": {
+        "intro": "Fotoprotecția corectă este baza rutinei de îngrijire. SPF previne pigmentul post-inflamator, protejează colagenul și reduce riscul de arsuri solare.",
+        "sections": [
+          {"title": "Ce înseamnă SPF", "content": "• SPF indică protecția împotriva UVB (arsuri)\n• Caută mențiunea UVA cerc, PA sau broad-spectrum pentru protecție completă\n• Pentru oraș: SPF 30+ este suficient dacă reaplici"},
+          {"title": "Cât și cum aplici", "content": "• Cantitate: ~2mg/cm² – două degete de produs pe față\n• Reaplicare: la 2–3 ore dacă te expui sau transpiri\n• Nu uita de urechi, gât, dosul mâinilor"},
+          {"title": "Mineral vs. chimic", "content": "• Mineral (ZnO, TiO2): mai blând, uneori lasă tentă albă\n• Chimic (Tinosorb, Uvinul): texturi plăcute, protecție excelentă\n• Alege ce tolerezi cel mai bine; important e să folosești suficient"}
+        ],
+        "conclusion": "Consistența bate perfecțiunea. Aplică zilnic, reaplică inteligent și vei avea rezultate vizibile în uniformizarea tenului."
+      }
+    },
+    {
+      "id": "niacinamida-bariera-pielii",
+      "slug": "niacinamida-beneficii-bariera",
+      "title": "Niacinamida: susține bariera pielii și reduce roșeața",
+      "excerpt": "Niacinamida poate îmbunătăți hidratarea, reduce eritemul și ajuta la sebum. Iată cum o introduci fără iritație.",
+      "category": "ingrijire",
+      "author": "Emma",
+      "date": "2024-12-10",
+      "readTime": "5 min",
+      "featured": false,
+      "image": "assets/gallery/niacinamida-beneficii.jpg",
+      "tags": ["niacinamidă", "bariera pielii", "hidratare"],
+      "content": {
+        "intro": "Niacinamida (vitamina B3) este bine tolerată pentru majoritatea tipurilor de piele și poate reduce roșeața și îmbunătăți textura.",
+        "sections": [
+          {"title": "Concentrații uzuale", "content": "• 2–5% pentru majoritatea tipurilor\n• 10% pentru ten rezistent – poate fi prea mult pentru sensibili"},
+          {"title": "Combinații utile", "content": "• Cu ceramide și acid hialuronic pentru hidratare\n• Cu zinc pentru sebum (ten mixt/gras)\n• Evită layering excesiv care poate irita"},
+          {"title": "Routine simplă", "content": "• Dimineața sau seara după curățare\n• Urmează cu cremă barieră\n• SPF ziua este obligatoriu"}
+        ],
+        "conclusion": "Produs versatil, bine tolerat, bun pentru roșeață și uniformizare. Ajustează concentrația la toleranța ta."
+      }
+    },
+    {
+      "id": "acid-salicilic-puncte-negre",
+      "slug": "bha-pentru-pori-curati",
+      "title": "Acid salicilic (BHA): pori mai curați și mai puțin luciu",
+      "excerpt": "BHA dizolvă sebumul din pori și ajută la puncte negre. Cum alegi concentrația și frecvența fără a usca pielea.",
+      "category": "ingrijire",
+      "author": "Emma",
+      "date": "2024-12-07",
+      "readTime": "5 min",
+      "featured": false,
+      "image": "assets/gallery/bha-pori-curati.jpg",
+      "tags": ["BHA", "salicilic", "puncte negre"],
+      "content": {
+        "intro": "BHA (acid salicilic) este lipofilic și pătrunde în pori, fiind util pentru puncte negre și luciu excesiv.",
+        "sections": [
+          {"title": "Concentrație și frecvență", "content": "• 1–2% pentru uz acasă\n• 2–3x pe săptămână la început\n• Hidratează bine pentru a preveni uscarea"},
+          {"title": "Ce să eviți", "content": "• Nu combina în aceeași seară cu retinol dacă te iriți\n• Evită zonele sensibile (aripile nasului) la început"},
+          {"title": "Rezultate", "content": "• Pori mai clari în 3–4 săptămâni\n• Sebum mai controlat\n• Textură vizibil îmbunătățită"}
+        ],
+        "conclusion": "Folosit inteligent, BHA oferă rezultate vizibile fără a compromite bariera dacă menții hidratarea."
+      }
+    },
+    {
+      "id": "sprancene-hormoni-tiroida",
+      "slug": "sprancene-cadere-tiroida",
+      "title": "Sprâncene și tiroida: când căderea din coada sprâncenei indică o problemă",
+      "excerpt": "Căderea firelor din treimea laterală a sprâncenei poate fi asociată cu hipotiroidism. Semne, când mergi la medic și ce investigații se fac.",
+      "category": "medicina",
+      "author": "Emma",
+      "date": "2024-12-05",
+      "readTime": "6 min",
+      "featured": false,
+      "image": "assets/gallery/sprancene-tiroida.jpg",
+      "tags": ["tiroidă", "sprâncene", "hipotiroidism"],
+      "content": {
+        "intro": "Anumite modificări ale sprâncenelor pot semnaliza probleme sistemice. Hipotiroidismul clasic poate asocia subțierea treimii laterale a sprâncenei.",
+        "sections": [
+          {"title": "Semne asociate", "content": "• Oboseală, creștere în greutate, piele uscată\n• Sensibilitate la frig\n• Căderea firelor în coada sprâncenei"},
+          {"title": "Când mergi la medic", "content": "• Dacă observi schimbări persistente ale părului sprâncenelor + simptome sistemice\n• Se pot recomanda: TSH, FT4, anticorpi tiroidieni"},
+          {"title": "Îngrijire concomitentă", "content": "• Evită tratamente agresive pe sprâncene până clarifici cauza\n• Discută cu medicul pentru management sistemic"}
+        ],
+        "conclusion": "Semnele locale pot avea cauze sistemice. Evaluarea medicală este importantă pentru un plan corect de îngrijire și estetică."
+      }
+    },
+    {
+      "id": "blefarita-igiena-pleoapelor",
+      "slug": "igiena-pleoapelor-blefarita",
+      "title": "Blefarită și igiena pleoapelor: recomandări înainte și după laminare gene",
+      "excerpt": "Inflamația marginii pleoapelor necesită igienă riguroasă. Ghid practic de curățare, când amâni tratamentul și ce discuți cu medicul.",
+      "category": "medicina",
+      "author": "Emma",
+      "date": "2024-12-03",
+      "readTime": "7 min",
+      "featured": false,
+      "image": "assets/gallery/blefarita-igiena.jpg",
+      "tags": ["blefarită", "pleoape", "laminare gene"],
+      "content": {
+        "intro": "Blefarita (inflamație cronică a marginii pleoapelor) poate crea disconfort și sensibilitate. Igiena corectă ajută semnificativ și este necesară înainte de tratamente pe gene.",
+        "sections": [
+          {"title": "Rutina de igienă", "content": "• Comprese calde 5–10 min\n• Curățare delicată cu șervețele speciale pentru pleoape\n• Masaj ușor al marginii pleoapei pentru drenaj"},
+          {"title": "Când amâni laminarea", "content": "• În pusee active cu roșeață și secreții\n• La senzație de arsură sau mâncărime intensă\n• Discută cu medicul oftalmolog pentru tratament"},
+          {"title": "Îngrijire post", "content": "• Evită machiajul ochilor 48h\n• Menține igiena zilnică\n• Anunță imediat orice iritație neobișnuită"}
+        ],
+        "conclusion": "Igiena constantă reduce recurențele și îmbunătățește confortul. Procedurile estetice se fac doar pe pleoape sănătoase."
+      }
+    },
+    {
+      "id": "ulei-ricin-mituri-gene-sprancene",
+      "slug": "ulei-ricin-realitate",
+      "title": "Uleiul de ricin pentru gene și sprâncene: ce poate și ce nu",
+      "excerpt": "Uleiul de ricin hidratează firul, dar dovezile pentru creștere sunt limitate. Cum îl folosești realist, fără a irita ochii.",
+      "category": "tips",
+      "author": "Emma",
+      "date": "2024-11-28",
+      "readTime": "5 min",
+      "featured": false,
+      "image": "assets/gallery/ulei-ricin.jpg",
+      "tags": ["ulei de ricin", "gene", "sprâncene"],
+      "content": {
+        "intro": "Uleiul de ricin este popular pentru gene/sprâncene. Dovezile pentru creștere sunt limitate, dar efectul de emoliere și protecție poate îmbunătăți aspectul.",
+        "sections": [
+          {"title": "Beneficii realiste", "content": "• Emoliere și strălucire\n• Reducere temporară a aspectului de uscăciune\n• Barieră împotriva deshidratării"},
+          {"title": "Cum îl folosești în siguranță", "content": "• Aplică foarte puțin seara, evită linia apei\n• Dacă apar iritații/roșeață, oprește imediat\n• Nu înlocuiește serurile cu peptide pentru creștere"},
+          {"title": "Alternative cu dovezi mai bune", "content": "• Peptide, panthenol, uleiuri ușoare (jojoba)\n• Produse formulate pentru zona ochilor"}
+        ],
+        "conclusion": "Folosește-l ca emolient, nu ca tratament miraculos. Toleranța oculară e prioritară."
+      }
+    },
+    {
+      "id": "sprancene-forma-fata-guid",
+      "slug": "alegerea-formei-sprancenei",
+      "title": "Cum alegi forma sprâncenei în funcție de forma feței",
+      "excerpt": "Principii estetice simple: proporții, înălțimea arcului, lungimea cozii. Greșeli frecvente și cum le eviți.",
+      "category": "tutorial",
+      "author": "Emma",
+      "date": "2024-11-25",
+      "readTime": "6 min",
+      "featured": false,
+      "image": "assets/gallery/forma-sprancenei.jpg",
+      "tags": ["sprâncene", "forma feței", "estetică"],
+      "content": {
+        "intro": "Sprâncenele echilibrate urmează proporțiile feței. Ajustarea arcului și a cozii schimbă mult expresivitatea.",
+        "sections": [
+          {"title": "Principii-cheie", "content": "• Capul sprâncenei aliniat cu aripa nasului\n• Arcul în dreptul marginii exterioare a irisului\n• Coada nu coboară prea mult pentru a nu obosi privirea"},
+          {"title": "În funcție de formă", "content": "• Rotundă: arc ușor mai pronunțat pentru alungire\n• Pătrată: linii mai soft, arc moderat\n• Ovala: formă clasică, echilibrată"},
+          {"title": "Greșeli frecvente", "content": "• Supraepilare în cap – face sprânceana rară\n• Arc prea înalt – look surprins permanent\n• Coada prea lungă și joasă – îmbătrânește look-ul"}
+        ],
+        "conclusion": "Consultul personalizat stabilește forma potrivită fizionomiei tale, nu trendul momentului."
+      }
+    },
+    {
+      "id": "dermatita-seboreica-sprancene",
+      "slug": "cojite-sub-sprancene-solutii",
+      "title": "Dermatita seboreică sub sprâncene: cauze și soluții practice",
+      "excerpt": "Roșeață, scuame fine sub sprâncene? Igienă blândă, produse antifungice topice și îngrijire barieră pot ajuta.",
+      "category": "medicina",
+      "author": "Emma",
+      "date": "2024-11-22",
+      "readTime": "6 min",
+      "featured": false,
+      "image": "assets/gallery/dermatita-seboreica-sprancene.jpg",
+      "tags": ["dermatită seboreică", "sprâncene", "medicină"],
+      "content": {
+        "intro": "Dermatita seboreică afectează frecvent zona sprâncenelor. Îngrijirea corectă minimizează recurențele și disconfortul.",
+        "sections": [
+          {"title": "Semne tipice", "content": "• Roșeață, prurit\n• Scuame fine alb-gălbui\n• Agravare la stres/temperaturi extreme"},
+          {"title": "Îngrijire de bază", "content": "• Curățare blândă, evită stripping-ul\n• Emoliente non-occlusive\n• Șampoane/loțiuni cu ketoconazol, zinc pyrithione – conform recomandării"},
+          {"title": "Când ceri ajutor", "content": "• Leziuni persistente sau extinse\n• Iritații severe după produse noi\n• Medicul poate ajusta terapia topică"}
+        ],
+        "conclusion": "Tratamentul consecvent și blând ajută semnificativ. Procedurile estetice pe sprâncene se programează în afara puseelor."
+      }
+    },
+    {
+      "id": "machiaj-post-laminare",
+      "slug": "machiaj-dupa-laminare",
+      "title": "Machiaj după laminare: ce produse alegi pentru sprâncene și gene",
+      "excerpt": "După 48h poți aplica machiaj. Geluri transparente, creioane fine și rimeluri water-based mențin rezultatul fără a-l compromite.",
+      "category": "tips",
+      "author": "Emma",
+      "date": "2024-11-20",
+      "readTime": "5 min",
+      "featured": false,
+      "image": "assets/gallery/machiaj-post-laminare.jpg",
+      "tags": ["machiaj", "laminare", "sprâncene"],
+      "content": {
+        "intro": "Machiajul corect după laminare accentuează rezultatul fără a-l afecta.",
+        "sections": [
+          {"title": "Sprâncene", "content": "• Gel transparent sau ușor colorat\n• Creion fin pentru goluri discrete\n• Evită săpuni foarte alcaline (soap brows) imediat după"},
+          {"title": "Gene", "content": "• Rimel water-based\n• Demachiere blândă, fără uleiuri în primele zile\n• Evită ondulatorul"}
+        ],
+        "conclusion": "Produsele potrivite păstrează efectul și oferă finisaj curat. Întreabă la consult pentru recomandări personalizate."
+      }
+    }
+  ],
+  
+  "seo": {
+    "blogTitle": "Blog Beauty | Browtiful by Emma | Laminare Sprâncene Timișoara",
+    "blogDescription": "Articole despre laminare sprâncene, laminare gene, îngrijire, review produse cosmetice și tendințe beauty. Sfaturi de la Emma - medic specialist în cosmetică din Timișoara.",
+    "blogKeywords": "blog beauty timisoara, laminare sprancene articole, ingrijire sprancene, review produse cosmetice, tendinte beauty 2025, tips gene sprancene"
+  }
+}

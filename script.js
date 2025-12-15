@@ -153,6 +153,16 @@
         menuToggle.addEventListener('click', toggleMobileMenu);
     }
 
+    // Close button inside the nav (X)
+    const navCloseBtn = document.getElementById('navClose');
+    if (navCloseBtn) {
+        navCloseBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            closeMobileMenu();
+            menuToggle.focus();
+        });
+    }
+
     // Close mobile menu when clicking a link
     navLinks.forEach(link => {
         link.addEventListener('click', closeMobileMenu);
@@ -339,6 +349,36 @@
             menuToggle.focus();
         }
     });
+
+    // Close mobile menu when clicking/tapping outside the nav or on the overlay area
+    document.addEventListener('click', (e) => {
+        try {
+            if (!nav || !menuToggle) return;
+            if (!nav.classList.contains('active')) return;
+
+            const target = e.target;
+            // If the click is on the toggle button, let the toggle handler manage it
+            if (menuToggle.contains(target)) return;
+            // If the click is outside the nav, close the menu
+            if (!nav.contains(target)) {
+                closeMobileMenu();
+            }
+        } catch (err) {
+            // Ignore errors from detached nodes
+        }
+    }, { capture: true });
+
+    // Also support touchstart for mobile taps
+    document.addEventListener('touchstart', (e) => {
+        if (!nav || !menuToggle) return;
+        if (!nav.classList.contains('active')) return;
+
+        const target = e.target;
+        if (menuToggle.contains(target)) return;
+        if (!nav.contains(target)) {
+            closeMobileMenu();
+        }
+    }, { passive: true, capture: true });
 
     // ==================== FORM VALIDATION (if forms are added later) ====================
     function validateEmail(email) {

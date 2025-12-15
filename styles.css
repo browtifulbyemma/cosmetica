@@ -444,15 +444,24 @@ ul, ol {
     .header__nav {
         display: block;
         position: fixed;
-        top: var(--header-height);
-        left: 0;
+        /* sidebar anchored to the right */
+        top: 0;
         right: 0;
         bottom: 0;
+        left: auto;
         background-color: var(--color-bg);
-        padding: var(--space-xl);
+        box-sizing: border-box;
+        /* max width so it behaves like a sidebar on larger phones */
+        width: min(92vw, 360px);
+        /* keep a top padding so the nav content doesn't sit behind the header */
+        padding: calc(var(--header-height) + var(--space-lg)) var(--space-lg) var(--space-lg);
         transform: translateX(100%);
         transition: transform var(--transition-base);
         overflow-y: auto;
+        z-index: 1100; /* above the header (which is 1000) */
+        border-top-left-radius: var(--radius-lg);
+        border-bottom-left-radius: var(--radius-lg);
+        box-shadow: -10px 0 30px rgba(42,30,27,0.12);
     }
     
     .header__nav.active {
@@ -461,12 +470,37 @@ ul, ol {
     
     .nav__list {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
         gap: var(--space-lg);
     }
     
     .nav__link {
         font-size: var(--fs-lg);
+    }
+
+    /* Close button for mobile sidebar */
+    .nav__close {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background: transparent;
+        color: var(--color-espresso);
+        font-size: 26px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        cursor: pointer;
+        z-index: 1110;
+    }
+
+    .nav__close:focus {
+        outline: 2px solid var(--color-gold);
+        outline-offset: 2px;
     }
 }
 

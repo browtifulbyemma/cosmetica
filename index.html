@@ -98,17 +98,7 @@
                 <span class="logo-accent">by Emma</span>
             </a>
             
-            <nav class="header__nav" id="nav">
-                <ul class="nav__list">
-                    <li><a href="#servicii" class="nav__link">Servicii</a></li>
-                    <li><a href="#despre" class="nav__link">Despre</a></li>
-                    <li><a href="#avantaje" class="nav__link">De ce eu</a></li>
-                    <li><a href="#testimoniale" class="nav__link">Testimoniale</a></li>
-                    <li><a href="blog.html" class="nav__link">Blog</a></li>
-                    <li><a href="#programari" class="nav__link">Programări</a></li>
-                    <li><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </nav>
+            <!-- nav moved below header to avoid stacking/clip issues when fixed -->
             
             <a href="#programari" class="btn btn--small header__cta">Programează-te</a>
             
@@ -119,6 +109,19 @@
             </button>
         </div>
     </header>
+
+    <nav class="header__nav" id="nav">
+        <button class="nav__close" id="navClose" aria-label="Închide meniul">×</button>
+        <ul class="nav__list">
+            <li><a href="#servicii" class="nav__link">Servicii</a></li>
+            <li><a href="#despre" class="nav__link">Despre</a></li>
+            <li><a href="#avantaje" class="nav__link">De ce eu</a></li>
+            <li><a href="#testimoniale" class="nav__link">Testimoniale</a></li>
+            <li><a href="blog.html" class="nav__link">Blog</a></li>
+            <li><a href="#programari" class="nav__link">Programări</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
 
     <main>
         <!-- ==================== HERO ==================== -->

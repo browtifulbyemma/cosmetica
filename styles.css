@@ -318,29 +318,35 @@ ul, ol {
     display: flex;
     align-items: center;
     gap: var(--space-xs);
+    height: 100%; /* ensure logo container fills header for consistent sizing */
 }
 
 /* Logo image: constrain height to header and preserve aspect ratio */
 .header__logo-img {
     display: block;
-    max-height: calc(var(--header-height) - 12px);
+    /* prefer container-relative sizing to avoid Safari calc bugs */
+    max-height: calc(100% - 12px);
     width: auto;
     height: auto;
 }
 
 /* Mobile-specific: reduce logo width/height so header stays compact */
 @media (max-width: 479px) {
+
     /* Prevent logo overflowing header on small phones */
     .header {
         overflow: hidden;
     }
 
     .header__logo-img {
-        max-height: calc(var(--header-height) - 30px);
+        /* compute relative to header container to avoid Safari rendering differences */
+        max-height: calc(100% - 18px);
         max-width: 140px;
         width: auto;
         height: auto;
         object-fit: contain;
+        -webkit-transform: translateZ(0); /* force GPU layer in Safari to avoid rendering glitches */
+        transform: translateZ(0);
     }
 
     .header__menu-toggle {

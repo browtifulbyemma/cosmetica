@@ -330,10 +330,19 @@ ul, ol {
 
 /* Mobile-specific: reduce logo width/height so header stays compact */
 @media (max-width: 479px) {
-    .header__logo-img {
-        max-height: calc(var(--header-height) - 18px);
-        max-width: 160px;
+    /* Prevent logo overflowing header on small phones */
+    .header {
+        overflow: hidden;
     }
+
+    .header__logo-img {
+        max-height: calc(var(--header-height) - 30px);
+        max-width: 140px;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+
     .header__menu-toggle {
         width: 36px;
         height: 36px;

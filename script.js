@@ -482,6 +482,11 @@
         // Initialize gallery
         initGallery();
 
+        // Initialize WhatsApp widget (floating chat)
+        if (typeof initWhatsAppWidget === 'function') {
+            try { initWhatsAppWidget(); } catch (err) { console.warn('WhatsApp widget init error', err); }
+        }
+
         // Place nav according to current viewport (desktop vs mobile)
         placeNavForViewport();
         
@@ -677,6 +682,50 @@
         const thumbnails = lightbox.querySelectorAll('.lightbox__thumbnail');
         thumbnails.forEach((thumb, index) => {
             thumb.classList.toggle('active', index === currentImageIndex);
+        });
+    }
+
+    // ==================== WHATSAPP WIDGET FUNCTIONS ====================
+    function initWhatsAppWidget() {
+        const widget = document.querySelector('.whatsapp-widget');
+        if (!widget) return;
+
+        const toggle = document.getElementById('whatsappToggle');
+        const closeBtn = document.getElementById('whatsappClose');
+        const startBtn = document.getElementById('whatsappStart');
+        const phone = '40730854190';
+        const defaultText = encodeURIComponent('Salut Emma, aș dori o programare pentru laminare sprâncene.');
+
+        // Toggle widget open/close
+        toggle?.addEventListener('click', (e) => {
+            e.preventDefault();
+            widget.classList.toggle('open');
+        });
+
+        // Close button inside widget
+        closeBtn?.addEventListener('click', (e) => {
+            e.preventDefault();
+            widget.classList.remove('open');
+        });
+
+        // Start chat button opens WhatsApp
+        startBtn?.addEventListener('click', (e) => {
+            e.preventDefault();
+            const url = `https://wa.me/${phone}?text=${defaultText}`;
+            window.open(url, '_blank');
+            widget.classList.remove('open');
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!widget.classList.contains('open')) return;
+            if (widget.contains(e.target)) return;
+            widget.classList.remove('open');
+        });
+
+        // Close on Escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') widget.classList.remove('open');
         });
     }
 

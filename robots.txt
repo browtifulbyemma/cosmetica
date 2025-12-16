@@ -63,8 +63,8 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
-# Sitemap location - UPDATE cu URL-ul tău după deploy
-# Sitemap: https://YOUR-USERNAME.github.io/browtiful/sitemap.xml
+# Sitemap location
+# Sitemap: https://browtifulbyemma.github.io/cosmetica/sitemap.xml
 
 # Host preferat
 # Host: https://browtifulbyemma.ro

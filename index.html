@@ -35,6 +35,9 @@
     <meta property="og:image:alt" content="Browtiful by Emma - Laminare sprâncene și gene în Timișoara">
     <meta property="og:locale" content="ro_RO">
     <meta property="og:url" content="">
+    <link rel="canonical" href="https://browtifulbyemma.github.io/cosmetica/">
+    <meta property="og:url" content="https://browtifulbyemma.github.io/cosmetica/">
+    <meta name="twitter:url" content="https://browtifulbyemma.github.io/cosmetica/">
     <meta property="business:contact_data:street_address" content="Timișoara">
     <meta property="business:contact_data:locality" content="Timișoara">
     <meta property="business:contact_data:region" content="Timiș">
@@ -88,6 +91,42 @@
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+        <!-- Structured data: Health & Beauty business -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "HealthAndBeautyBusiness",
+            "name": "Browtiful by Emma",
+            "url": "https://browtifulbyemma.github.io/cosmetica/",
+            "logo": "https://browtifulbyemma.github.io/cosmetica/assets/gallery/logo.jpeg",
+            "image": "https://browtifulbyemma.github.io/cosmetica/assets/gallery/IMG_6564.png",
+            "telephone": "+40730854190",
+            "priceRange": "€€",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Timișoara",
+                "addressRegion": "Timiș",
+                "addressCountry": "RO"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 45.7489,
+                "longitude": 21.2087
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                    "opens": "09:00",
+                    "closes": "18:00"
+                }
+            ],
+            "sameAs": [
+                "https://www.facebook.com/browtifulbyemma",
+                "https://twitter.com/browtifulbyemma"
+            ]
+        }
+        </script>
 </head>
 <body>
     <!-- ==================== HEADER ==================== -->
@@ -1170,6 +1209,26 @@
     }
     </script>
     
+    <!-- WhatsApp floating widget -->
+    <div class="whatsapp-widget" aria-live="polite">
+        <div class="whatsapp-window" id="whatsappWindow" aria-hidden="true">
+            <div class="whatsapp-window__header">
+                <div class="whatsapp-window__title">Ai o întrebare?</div>
+                <button class="whatsapp-window__close" id="whatsappClose" aria-label="Închide">×</button>
+            </div>
+            <div class="whatsapp-window__body">
+                <p>Salut! Sunt Emma. Scrie-mi un mesaj și îți răspund cât de curând.</p>
+                <a href="https://wa.me/40730854190?text=Salut%20Emma%2C%20aș%20dori%20o%20programare%20pentru%20laminare%20sprâncene." target="_blank" class="btn btn--primary whatsapp-start" id="whatsappStart">Începe conversația</a>
+            </div>
+        </div>
+        <button class="whatsapp-button" id="whatsappToggle" aria-label="Deschide chat WhatsApp">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347" fill="#fff"></path>
+                <path d="M12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654A11.882 11.882 0 0012.05 24c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0012.05 0z" fill="#fff" opacity="0.02"></path>
+            </svg>
+        </button>
+    </div>
+
     <!-- JavaScript -->
     <script src="script.js"></script>
 </body>

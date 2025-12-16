@@ -70,13 +70,13 @@
     --transition-base: 250ms ease;
     --transition-slow: 400ms ease;
     
-    /* Header height (adjusted per user) */
-    --header-height: 130px;
+    /* Header height: smaller on phones, larger on tablets/desktop */
+    --header-height: 90px; /* mobile default */
 }
 
 @media (min-width: 480px) {
     :root {
-        --header-height: 130px;
+        --header-height: 130px; /* tablet+ */
     }
 }
 
@@ -328,9 +328,30 @@ ul, ol {
     height: auto;
 }
 
+/* Mobile-specific: reduce logo width/height so header stays compact */
+@media (max-width: 479px) {
+    .header__logo-img {
+        max-height: calc(var(--header-height) - 18px);
+        max-width: 160px;
+    }
+    .header__menu-toggle {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* Medium screens (phones in landscape / small tablets) */
+@media (min-width: 480px) and (max-width: 1023px) {
+    .header__logo-img {
+        max-height: calc(var(--header-height) - 12px);
+        max-width: 220px;
+    }
+}
+
 @media (min-width: 1024px) {
     .header__logo-img {
         max-height: calc(var(--header-height) - 8px);
+        max-width: 280px;
     }
 }
 

@@ -70,13 +70,13 @@
     --transition-base: 250ms ease;
     --transition-slow: 400ms ease;
     
-    /* Header height */
-    --header-height: 70px;
+    /* Header height (adjusted per user) */
+    --header-height: 130px;
 }
 
 @media (min-width: 480px) {
     :root {
-        --header-height: 80px;
+        --header-height: 130px;
     }
 }
 
@@ -296,7 +296,7 @@ ul, ol {
     left: 0;
     right: 0;
     height: var(--header-height);
-    background-color: rgba(248, 245, 241, 0.95);
+    background-color: #EFEAE6;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 1000;
@@ -316,8 +316,22 @@ ul, ol {
 
 .header__logo {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: var(--space-xs);
+}
+
+/* Logo image: constrain height to header and preserve aspect ratio */
+.header__logo-img {
+    display: block;
+    max-height: calc(var(--header-height) - 12px);
+    width: auto;
+    height: auto;
+}
+
+@media (min-width: 1024px) {
+    .header__logo-img {
+        max-height: calc(var(--header-height) - 8px);
+    }
 }
 
 .logo-text {
@@ -354,6 +368,32 @@ ul, ol {
     .header__nav {
         display: block;
     }
+
+    /* When nav is placed inside the header container on desktop, render it inline */
+    .header__container > .header__nav {
+        position: static;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        width: auto;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        z-index: auto;
+    }
+
+    .header__container > .header__nav .nav__list {
+        flex-direction: row;
+        align-items: center;
+        gap: var(--space-xl);
+    }
+
+    .header__container > .header__nav .nav__link {
+        font-size: var(--fs-sm);
+    }
 }
 
 .nav__list {
@@ -368,6 +408,11 @@ ul, ol {
     color: var(--color-text-light);
     position: relative;
     padding: var(--space-xs) 0;
+}
+
+/* Ensure the mobile-only close button is hidden by default (desktop) */
+.nav__close {
+    display: none;
 }
 
 .nav__link::after {

@@ -135,6 +135,32 @@
     const sections = document.querySelectorAll('section[id]');
     const revealElements = document.querySelectorAll('.reveal');
 
+    // Keep track of nav placement to show desktop links inside header
+    function placeNavForViewport() {
+        if (!nav || !header) return;
+        const headerContainer = header.querySelector('.header__container');
+        const body = document.body;
+
+        if (window.innerWidth >= 1024) {
+            // Move nav inside header container (if not already)
+            if (headerContainer && nav.parentElement !== headerContainer) {
+                headerContainer.insertBefore(nav, headerContainer.querySelector('.header__menu-toggle'));
+                // ensure mobile classes removed
+                nav.classList.remove('mobile-placed');
+            }
+        } else {
+            // Place nav as direct sibling after header for fixed positioning
+            if (nav.parentElement !== body || nav.previousElementSibling !== header) {
+                if (header.nextSibling) {
+                    header.parentNode.insertBefore(nav, header.nextSibling);
+                } else {
+                    header.parentNode.appendChild(nav);
+                }
+                nav.classList.add('mobile-placed');
+            }
+        }
+    }
+
     // ==================== MOBILE MENU ====================
     function toggleMobileMenu() {
         menuToggle.classList.toggle('active');
@@ -173,6 +199,16 @@
         if (window.innerWidth >= 1024) {
             closeMobileMenu();
         }
+    });
+
+    // Reposition nav on resize so desktop shows links in header and mobile uses fixed sidebar
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            placeNavForViewport();
+            if (window.innerWidth >= 1024) closeMobileMenu();
+        }, 120);
     });
 
     // ==================== HEADER SCROLL EFFECT ====================
@@ -445,6 +481,9 @@
         
         // Initialize gallery
         initGallery();
+
+        // Place nav according to current viewport (desktop vs mobile)
+        placeNavForViewport();
         
         // Log initialization
         console.log('Browtiful by Emma website initialized successfully');

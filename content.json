@@ -115,7 +115,7 @@
     "highlight": "<strong>Medic internist</strong> cu pasiune pentru cosmetică și sănătatea pielii. Această combinație unică îmi permite să înțeleg pielea nu doar din perspectivă estetică, ci și medicală — știu ce se întâmplă cu pielea ta și cum să tratez fiecare tip de ten în siguranță.",
     "text1": "Pe lângă cariera medicală, am urmat cursuri intensive de specializare în cosmetică profesională, laminare și stilizare sprâncene, precum și laminare gene. Lucrez cu produse premium precum <strong>MY LAMINATION, TUYA și NOEMI</strong> — branduri inovatoare care restructurează și hidratează.",
     "text2": "Cred în abordarea personalizată — fiecare ten și fiecare față este unică. Formarea mea medicală mă ajută să fac <strong>diagnosticarea corectă a tenului</strong> și să stabilesc scheme de tratament bazate pe știință, nu pe intuiție.",
-    "image": "IMG_6564.png",
+    "image": "assets/gallery/IMG_6564.png",
     "philosophy": [
       { "title": "Siguranță medicală", "text": "Cunoștințe de anatomie, fiziologie și dermatologie" },
       { "title": "Personalizare", "text": "Diagnosticare profesională și tratamente adaptate" },
@@ -200,3 +200,4 @@
     }
   ]
 }
+
